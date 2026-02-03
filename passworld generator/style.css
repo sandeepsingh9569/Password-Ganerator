@@ -1,0 +1,132 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "League Spartan", sans-serif;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
+
+.container {
+  width: 90%;
+  max-width: 450px;
+  background-color: #1f2933;
+  padding: 25px;
+  border-radius: 12px;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #38bdf8;
+}
+
+/* display */
+.display-container {
+  position: relative;
+  background-color: #111827;
+  border-radius: 8px;
+  padding: 12px;
+  margin-bottom: 20px;
+}
+
+.display {
+  width: 100%;
+  background: transparent;
+  border: none;
+  outline: none;
+  color: #facc15;
+  font-size: 20px;
+  letter-spacing: 1px;
+}
+
+.copyBtn {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.tooltip {
+  position: absolute;
+  top: -30px;
+  right: 0;
+  background-color: #22c55e;
+  color: #000;
+  font-size: 12px;
+  padding: 4px 8px;
+  border-radius: 4px;
+  opacity: 0;
+  transition: 0.3s;
+}
+
+/* input container */
+.input-container {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.length-container {
+  display: flex;
+  justify-content: space-between;
+  color: #e5e7eb;
+}
+
+.slider {
+  width: 100%;
+  cursor: pointer;
+}
+
+.check {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.check input {
+  cursor: pointer;
+}
+
+/* strength */
+.strength-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.indicator {
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  background-color: red;
+}
+
+/* button */
+.generateButton {
+  margin-top: 10px;
+  padding: 12px;
+  background-color: #38bdf8;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.generateButton:hover {
+  background-color: #0ea5e9;
+}
+
+ 
